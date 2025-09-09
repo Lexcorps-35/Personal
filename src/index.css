@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+.slow-bounce {
+  animation: slow-bounce 2.5s infinite;
+}
+ @keyframes slow-bounce {
+
+   0%,
+   100% {
+     transform: translateY(-40%);
+     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+   }
+
+   50% {
+     transform: translateY(0);
+     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+   }
+ }
+ @keyframes slow-spin {
+   from {
+     transform: rotate(0deg);
+   }
+
+   to {
+     transform: rotate(360deg);
+   }
+ }
+
+ .slow-spin {
+   animation: slow-spin 10s linear infinite;
+   /* adjust 10s → slower/faster */
+ }
+ html {
+  scroll-behavior: smooth;
+}
