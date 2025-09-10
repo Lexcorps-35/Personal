@@ -36,7 +36,7 @@ export default function Home() {
         <div className="relative">
           {/* Circular image */}
           <img
-                      src=""
+                      src="/1755594343016.jpg"
             alt="Wilma"
             className="w-85 h-85 rounded-full object-cover"
           />

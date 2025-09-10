@@ -25,7 +25,7 @@ const HomePage = () => {
     
     <div className="relative" data-aos="fade-right">
       <img
-        src="src/assets/bmw.webp" 
+        src="/1755594343016.jpg" 
         alt="Tracyhot"
         className="w-72 h-72 mx-auto md:mx-0 object-cover rounded-2xl shadow-[0_0_30px_#dd6d7c]"
       />
@@ -72,9 +72,9 @@ const HomePage = () => {
       <section id="gallery" className="scroll-mt-40 py-20 px-6 bg-black">
         <h2 className="text-3xl font-semibold text-center mb-10">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
-          <img src="src/assets/bmw.webp" alt="gallery" className="rounded-lg" />
-          <img src="src/assets/bmw.webp" alt="gallery" className="rounded-lg" />
-          <img src="/src/assets/bmw.webp" alt="gallery" className="rounded-lg" />
+          <img src="/1755594343016.jpg" alt="gallery" className="rounded-lg" />
+          <img src="/1755594343016.jpg" alt="gallery" className="rounded-lg" />
+          <img src="/1755594343016.jpg" alt="gallery" className="rounded-lg" />
         </div>
       </section>
 
