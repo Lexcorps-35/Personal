@@ -1,0 +1,23 @@
+.countdown-circle {
+    transform: rotate(-90deg);
+}
+
+.countdown-circle circle {
+    fill: none;
+    stroke: #06b6d4;
+    stroke-width: 4;
+    stroke-dasharray: 283;
+    /* circumference (2πr with r=45) */
+    stroke-dashoffset: 283;
+    animation: countdown 5s linear forwards;
+}
+
+@keyframes countdown {
+    from {
+        stroke-dashoffset: 283;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}

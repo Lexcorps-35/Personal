@@ -25,7 +25,7 @@ const HomePage = () => {
     
     <div className="relative" data-aos="fade-right">
       <img
-        src="/1755594343016.jpg" 
+        src="" 
         alt="Tracyhot"
         className="w-72 h-72 mx-auto md:mx-0 object-cover rounded-2xl shadow-[0_0_30px_#dd6d7c]"
       />
@@ -45,15 +45,15 @@ const HomePage = () => {
         a love for <span className="italic">candlelit dinners</span>, 
         whispered conversations, and the thrill of new adventures.
       </p>
-      <p className="text-lg leading-relaxed text-gray-400">
-        Beyond elegance and charm, I value <span className="text-yellow-400 font-semibold">genuine chemistry</span>, 
+      <p className="text-lg leading-relaxed text-gray-300">
+        Beyond elegance and charm, I value <span>genuine chemistry</span>, 
         because it is the spark that turns an evening into a memory.
       </p>
       <p className="text-lg leading-relaxed text-gray-300">
         Whether strolling through the city, sharing a glass of wine, or 
         escaping into a weekend getaway — I believe every moment should feel 
         <span className="text-red-400 font-semibold"> effortless</span> and 
-        <span className="text-yellow-400 font-semibold"> unforgettable</span>.
+        <span> unforgettable</span>.
       </p>
       
       <a
@@ -72,9 +72,9 @@ const HomePage = () => {
       <section id="gallery" className="scroll-mt-40 py-20 px-6 bg-black">
         <h2 className="text-3xl font-semibold text-center mb-10">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
-          <img src="/1755594343016.jpg" alt="gallery" className="rounded-lg" />
-          <img src="/1755594343016.jpg" alt="gallery" className="rounded-lg" />
-          <img src="/1755594343016.jpg" alt="gallery" className="rounded-lg" />
+          <img src="" alt="gallery" className="rounded-lg" />
+          <img src="" alt="gallery" className="rounded-lg" />
+          <img src="" alt="gallery" className="rounded-lg" />
         </div>
       </section>
 
