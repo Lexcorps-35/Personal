@@ -127,14 +127,6 @@ const HomePage = () => {
         </form>
       </section>
 
-      {/* Footer */}
-      <footer className="py-10 px-6 bg-neutral-900 text-center text-sm text-neutral-400">
-        © 2025 Sofia | Discreet Companionship <br />
-        <p className="mt-2">
-          This website is intended for audiences 18+. All interactions are based
-          on mutual consent and respect.
-        </p>
-      </footer>
     </div>
     </div>
   )

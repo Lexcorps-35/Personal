@@ -1,8 +1,8 @@
 import React from "react";
 import { FiArrowRight } from "react-icons/fi";
 import { TbMichelinStarFilled } from "react-icons/tb";
-import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import HomePage from "./HomePage";
+import ReviewSection from "./ReviewSection";
 
 export default function Home() {
   return (
@@ -44,7 +44,8 @@ export default function Home() {
            <TbMichelinStarFilled  className="absolute top-0 right-0 w-15 h-15 text-gray-800 bg-red-400 rounded-full slow-spin"/> 
         </div>
       </section>
-      <HomePage/>
+      <HomePage />
+      <ReviewSection />
     </div>
   );
 }
