@@ -37,7 +37,7 @@ const Navbar = () => {
     <div className="flex items-center gap-4">
       {/* Facebook */}
       <a
-        href="https://facebook.com"
+        href="https://facebook.com/profile.php?id=100095026213605"
         className={`border-3 border-red-300 transition-all duration-300 ${
           scrolled ? "text-white" : "text-black"
         } hover:text-black hover:scale-125 hover:-translate-y-1 hover:bg-[#dd6d7c] shadow-[0_0_25px_#b74b4b] p-1 rounded-full`}
@@ -47,7 +47,7 @@ const Navbar = () => {
 
       {/* Twitter */}
       <a
-        href="https://twitter.com"
+        href="https://x.com/tracyyyyyhot"
         className={`border-3 border-red-300 transition-all duration-300 ${
           scrolled ? "text-white" : "text-black"
         } hover:text-black hover:scale-125 hover:-translate-y-1 hover:bg-[#dd6d7c] shadow-[0_0_25px_#b74b4b] p-1 rounded-full`}
@@ -57,7 +57,7 @@ const Navbar = () => {
 
       {/* LinkedIn */}
       <a
-        href="https://linkedin.com"
+        href="https://linkedin.com/in/ozioma-mbajunwa-4167a3233?utm_source=share&utm_campaign=share_via&tum_content=profile&utm_medium=android_app"
         className={`border-3 border-red-300 transition-all duration-300 ${
           scrolled ? "text-white" : "text-black"
         } hover:text-black hover:scale-125 hover:-translate-y-1 hover:bg-[#dd6d7c] shadow-[0_0_25px_#b74b4b] p-1 rounded-full`}

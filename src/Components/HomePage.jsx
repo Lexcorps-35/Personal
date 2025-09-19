@@ -153,7 +153,7 @@ const HomePage = () => {
 
       </div>
       
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col">
       
       <Faqsect faqs={faqs} />
     </div>
