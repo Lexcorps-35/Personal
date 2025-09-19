@@ -1,21 +1,18 @@
 "use client";
 
 import { motion, useAnimationFrame } from "framer-motion";
-import {
-  FaLayerGroup,
-  FaCubes,
-  FaDesktop,
-  FaScroll,
-} from "react-icons/fa";
-import { AiOutlineAppstore } from "react-icons/ai";
+import { GiSelfLove } from "react-icons/gi";
+import { MdTravelExplore, MdDinnerDining } from "react-icons/md";
+import { RiChatPrivateLine } from "react-icons/ri";
+import { FaAddressBook } from "react-icons/fa6";
 import { useState } from "react";
 
 const cards = [
-  { icon: <FaLayerGroup className="w-6 h-6" />, text: "Beautiful Cool Components" },
-  { icon: <AiOutlineAppstore className="w-6 h-6" />, text: "Customizable UI Blocks" },
-  { icon: <FaDesktop className="w-6 h-6" />, text: "Responsive Layouts" },
-  { icon: <FaScroll className="w-6 h-6" />, text: "Smooth Scroll Animations" },
-  { icon: <FaCubes className="w-6 h-6" />, text: "Open Source UI Components Library" },
+  { icon: <FaAddressBook className="w-6 h-6" />, text: "Social Dates" },
+  { icon: <GiSelfLove className="w-6 h-6" />, text: "Intimate Rendezvous" },
+  { icon: <MdTravelExplore className="w-6 h-6" />, text: "Travel Companion" },
+  { icon: <MdDinnerDining className="w-6 h-6" />, text: "Dinner Dates" },
+  { icon: <RiChatPrivateLine className="w-6 h-6" />, text: "Private Encounters" },
 ];
 
 export default function MotionCardsDemo() {

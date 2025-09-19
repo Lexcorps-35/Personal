@@ -51,7 +51,7 @@ const HomePage = () => {
     
     <div className="relative" data-aos="fade-right">
       <img
-        src="" 
+        src="/1755594343016.jpg" 
         alt="Tracyhot"
         className="w-72 h-72 mx-auto md:mx-0 object-cover rounded-2xl shadow-[0_0_30px_#dd6d7c]"
       />
@@ -98,9 +98,9 @@ const HomePage = () => {
       <section id="gallery" className="scroll-mt-40 py-20 px-6 bg-black">
         <h2 className="text-4xl font-bold text-center mb-10">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
-          <img src="" alt="gallery" className="rounded-lg" />
-          <img src="" alt="gallery" className="rounded-lg" />
-          <img src="" alt="gallery" className="rounded-lg" />
+          <img src="/photo_2025-09-19_02-17-46.jpg" alt="gallery" className="rounded-lg" />
+          <img src="/photo_2025-09-19_02-18-09.jpg" alt="gallery" className="rounded-lg" />
+          <img src="/1755594343016.jpg" alt="gallery" className="rounded-lg" />
         </div>
       </section>
 
@@ -111,18 +111,33 @@ const HomePage = () => {
        
             <div className="max-w-3xl mx-auto space-y-6">
                <h2 className="text-4xl font-bold text-center mb-10">Experiences</h2>
-          <div>
-            <h3 className="text-xl font-bold">Dinner Dates</h3>
-            <p>Elegant evenings with fine dining and stimulating conversation.</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold">Travel Companion</h3>
-            <p>Join me for unforgettable journeys, near or far.</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold">Private Encounters</h3>
-            <p>Exclusive time together, tailored to your desires.</p>
-              </div>
+         <ul className="space-y-4 text-left">
+  <li className="flex items-start">
+    <span className="w-2 h-2 mt-2 bg-red-500 rounded-full mr-3"></span>
+    <div>
+      <h3 className="text-xl font-bold">Dinner Dates</h3>
+      <p>Elegant evenings with fine dining and stimulating conversation.</p>
+    </div>
+  </li>
+
+  <li className="flex items-start">
+    <span className="w-2 h-2 mt-2 bg-red-500 rounded-full mr-3"></span>
+    <div>
+      <h3 className="text-xl font-bold">Travel Companion</h3>
+      <p>Join me for unforgettable journeys, near or far.</p>
+    </div>
+  </li>
+
+  <li className="flex items-start">
+    <span className="w-2 h-2 mt-2 bg-red-500 rounded-full mr-3"></span>
+    <div>
+      <h3 className="text-xl font-bold">Private Encounters</h3>
+      <p>Exclusive time together, tailored to your desires.</p>
+    </div>
+  </li>
+</ul>
+
+
             </div>
             <MotionCardsDemo />
           </div>
