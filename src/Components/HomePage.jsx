@@ -2,6 +2,32 @@ import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import FAQ from './Faq';
+import ContactSection from './ContactSection';
+import MotionCardsDemo from './MotionCardDemo';
+
+ const faqs = [
+    {
+      question: "What services do you offer?",
+      answer:
+        "I specialize in providing premium experience focused on connection, engaging conversation and mutual enjoyment. For specific details about the nature of our time together, i prefer to discuss that personally once you contact me as i tailor each meeting to the connection and comfort level we establish ",
+    },
+    {
+      question: "How do i book time with you?",
+      answer:
+        "Booking is simple and discreet, please reach out via the contact form on my website with your preferred date, time and the type of experience you're seeking,or through my social media links in the footer.",
+    },
+    {
+      question: "Do you work with international clients?",
+      answer:
+        "Yes, I collaborate with clients from all over the world via online sessions and remote communication tools.",
+    },
+    {
+      question: "What is your pricing model?",
+      answer:
+        "My rates are a reflection of my time, attention ad the premium,personalized experience i provide. I offer both fixed-rate packages and hourly options.",
+    },
+  ];
 
 
 const HomePage = () => {
@@ -70,7 +96,7 @@ const HomePage = () => {
 
       {/* Gallery */}
       <section id="gallery" className="scroll-mt-40 py-20 px-6 bg-black">
-        <h2 className="text-3xl font-semibold text-center mb-10">Gallery</h2>
+        <h2 className="text-4xl font-bold text-center mb-10">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
           <img src="" alt="gallery" className="rounded-lg" />
           <img src="" alt="gallery" className="rounded-lg" />
@@ -79,9 +105,12 @@ const HomePage = () => {
       </section>
 
       {/* Services */}
-      <section id="services" className=" scroll-mt-40 py-20 px-6 bg-neutral-900">
-        <h2 className="text-3xl font-semibold text-center mb-10">Experiences</h2>
-        <div className="max-w-3xl mx-auto space-y-6">
+        <section id="services" className=" scroll-mt-40 py-20 px-6 bg-neutral-900">
+          <div className='max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center'>
+          
+       
+            <div className="max-w-3xl mx-auto space-y-6">
+               <h2 className="text-4xl font-bold text-center mb-10">Experiences</h2>
           <div>
             <h3 className="text-xl font-bold">Dinner Dates</h3>
             <p>Elegant evenings with fine dining and stimulating conversation.</p>
@@ -93,41 +122,28 @@ const HomePage = () => {
           <div>
             <h3 className="text-xl font-bold">Private Encounters</h3>
             <p>Exclusive time together, tailored to your desires.</p>
+              </div>
+            </div>
+            <MotionCardsDemo />
           </div>
-        </div>
       </section>
 
       {/* Booking */}
       <section id="booking" className="scroll-mt-40 py-20 px-6 bg-black text-center">
-        <h2 className="text-3xl font-semibold mb-6">Booking</h2>
+          <h2 className="text-4xl font-bold mb-6">Booking</h2>
+          <p className=' text-2xl text-red-200'>Get in touch..</p>
         <p className="mb-8">Your privacy is my highest priority.</p>
-        <form className="max-w-lg mx-auto space-y-4">
-          <input
-            type="text"
-            placeholder="Name"
-            className="w-full p-3 rounded bg-neutral-800 text-white"
-          />
-          <input
-            type="email"
-            placeholder="Email"
-            className="w-full p-3 rounded bg-neutral-800 text-white"
-          />
-          <input
-            type="text"
-            placeholder="Preferred Date/Time"
-            className="w-full p-3 rounded bg-neutral-800 text-white"
-          />
-          <textarea
-            placeholder="Message"
-            className="w-full p-3 rounded bg-neutral-800 text-white"
-          ></textarea>
-          <button className="w-full px-6 py-3 bg-red-600 hover:bg-red-700 rounded-full">
-            Submit Request
-          </button>
-        </form>
+        <ContactSection />
       </section>
 
+      </div>
+      
+    <div className="flex flex-col min-h-screen">
+      
+      <FAQ faqs={faqs} />
     </div>
+
+
     </div>
   )
 }

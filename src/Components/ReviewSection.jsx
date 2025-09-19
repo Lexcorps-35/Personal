@@ -8,28 +8,28 @@ import "./ReviewSection.css";
 const reviews = [
   {
     id: 1,
-    name: "The Tech Chap",
+    name: "Jerry",
     subscribers: "1.56M subscribers",
     text: "A wonderful and genuine person, We had a fantastic initial meeting and an even better reunion. Her energy and vibes are exactly what i need. An unforgettable experience.",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     id: 2,
-    name: "John Doe",
+    name: "JohnPaul",
     subscribers: "900K subscribers",
     text: "From our first meeting to the next,her company is always enjoyable and down-to-earth. She brings an amazing energy that is truly my type. A forever sweet connection",
     image: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
     id: 3,
-    name: "Jane & Kate",
+    name: "Peter hills",
     subscribers: "1.2M subscribers",
     text: "An incredible person with a homely and vibrant energy, our time together is always fantastic and unforgettable. Truly my kind of vibe",
     image: "https://randomuser.me/api/portraits/women/56.jpg",
   },
   {
     id: 4,
-    name: "Another Reviewer",
+    name: "Anthony Eli",
     subscribers: "300K subscribers",
     text: "Tracy offers exactly what you crave, she is worth every dime and more, providing s truly premium amd satisfying experience. i highly recommend her and look forward to our next meeting.",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
@@ -82,7 +82,9 @@ const ReviewSection = () => {
   return (
 
     <section className="flex flex-col items-center justify-center py-12 px-6  bg-gray-50 dark:bg-neutral-900 text-center">
-      
+      <div>
+        <h2 className="text-3xl font-bold text-red-300 mb-8">Customer Reviews</h2>
+      </div>
       <div className="flex justify-center gap-6 mb-8 w-full transition-all duration-700 ease-in-out">
         {reviews.map((review, index) => (
           <div
@@ -123,7 +125,7 @@ const ReviewSection = () => {
       
       <p
         key={key + "-text"}
-        className="text-lg md:text-2xl font-medium max-w-2xl mb-6 transition-opacity duration-700 ease-in-out opacity-0 animate-fadeIn"
+        className="text-lg md:text-2xl dark:text-white font-medium max-w-2xl mb-6 transition-opacity duration-700 ease-in-out opacity-0 animate-fadeIn"
       >
         {reviews[active].text}
       </p>
