@@ -39,25 +39,25 @@ const socialLinks = [
     {
       name: "Instagram",
       icon: FaInstagram,
-      url: "https://instagram.com/sarahjohnson",
+      url: "https://instagram.com/tracyyyhot2025",
       hoverColor: "hover:text-pink-500",
     },
     {
       name: "Twitter",
       icon: FaXTwitter,
-      url: "https://twitter.com/sarahjohnson",
+      url: "https://x.com/tracyyyyyhot",
       hoverColor: "hover:text-blue-400",
     },
     {
       name: "LinkedIn",
       icon: CiLinkedin,
-      url: "https://linkedin.com/in/sarahjohnson",
+      url: "https://linkedin.com/in/ozioma-mbajunwa-4167a3233",
       hoverColor: "hover:text-blue-600",
     },
     {
       name: "Email",
       icon: MdOutlineEmail,
-      url: "mailto:sarah@sarahjohnson.com",
+      url: "mailto:doozybooboo9@gmail.com",
       hoverColor: "hover:text-indigo-500",
     },
   ];

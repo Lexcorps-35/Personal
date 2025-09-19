@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTelegram, FaLinkedin } from "react-icons/fa";
 import NavLinks from './Navlinks';
 
 const Navbar = () => {
@@ -47,12 +47,12 @@ const Navbar = () => {
 
       {/* Twitter */}
       <a
-        href="https://x.com/tracyyyyyhot"
+        href="https://t.me/sweetzaza1"
         className={`border-3 border-red-300 transition-all duration-300 ${
           scrolled ? "text-white" : "text-black"
         } hover:text-black hover:scale-125 hover:-translate-y-1 hover:bg-[#dd6d7c] shadow-[0_0_25px_#b74b4b] p-1 rounded-full`}
       >
-        <FaTwitter className="w-6 h-6" />
+        <FaTelegram className="w-6 h-6" />
       </a>
 
       {/* LinkedIn */}
