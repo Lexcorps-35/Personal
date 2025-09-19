@@ -2,9 +2,9 @@ import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import FAQ from './Faq';
 import ContactSection from './ContactSection';
 import MotionCardsDemo from './MotionCardDemo';
+import Faqsect from './FaqSect';
 
  const faqs = [
     {
@@ -140,7 +140,7 @@ const HomePage = () => {
       
     <div className="flex flex-col min-h-screen">
       
-      <FAQ faqs={faqs} />
+      <Faqsect faqs={faqs} />
     </div>
 
 
