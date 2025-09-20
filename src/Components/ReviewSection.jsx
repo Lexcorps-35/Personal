@@ -25,7 +25,7 @@ const reviews = [
     name: "Peter hills",
     subscribers: "1.2M subscribers",
     text: "An incredible person with a homely and vibrant energy, our time together is always fantastic and unforgettable. Truly my kind of vibe",
-    image: "https://media.istockphoto.com/id/1457751619/photo/portrait-of-a-young-black-man.jpg?s=1024x1024&w=is&k=20&c=7KdSjp7aJ6v6Z9-iLL0-jdfmDydjTfoDM7UB1g3KPZc=",
+    image: "https://media.istockphoto.com/id/1457751619/photo/portrait-of-a-young-black-man.jpg?s=612x612&w=0&k=20&c=xwOwrrKZBNGAoFMotZEXup-Ov3ZzHAOLT4PnCQl0q7E=",
   },
   {
     id: 4,
