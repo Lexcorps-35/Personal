@@ -25,14 +25,14 @@ const reviews = [
     name: "Peter hills",
     subscribers: "1.2M subscribers",
     text: "An incredible person with a homely and vibrant energy, our time together is always fantastic and unforgettable. Truly my kind of vibe",
-    image: "https://www.istockphoto.com/photo/close-up-portrait-of-a-happy-african-doctor-in-black-medical-uniform-on-a-gray-gm1278812725-377627922",
+    image: "https://media.istockphoto.com/id/1457751619/photo/portrait-of-a-young-black-man.jpg?s=1024x1024&w=is&k=20&c=7KdSjp7aJ6v6Z9-iLL0-jdfmDydjTfoDM7UB1g3KPZc=",
   },
   {
     id: 4,
     name: "Anthony Eli",
     subscribers: "300K subscribers",
     text: "Tracy offers exactly what you crave, she is worth every dime and more, providing s truly premium and satisfying experience. i highly recommend her and look forward to our next meeting.",
-    image: "https://www.istockphoto.com/photo/close-up-portrait-of-a-happy-african-doctor-in-black-medical-uniform-on-a-gray-gm1278812725-377627922",
+    image: "https://media.istockphoto.com/id/1078455718/photo/beautiful-black-man-in-front-of-a-brown-background.jpg?s=612x612&w=0&k=20&c=aksg5zX9rMnLnwjURbCu3QRiiTAYFSbsQyIr76b3PSM=",
   },
 ];
 const socialLinks = [
