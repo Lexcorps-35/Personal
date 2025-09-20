@@ -11,28 +11,28 @@ const reviews = [
     name: "Jerry",
     subscribers: "1.56M subscribers",
     text: "A wonderful and genuine person, We had a fantastic initial meeting and an even better reunion. Her energy and vibes are exactly what i need. An unforgettable experience.",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: "https://media.istockphoto.com/id/1347935361/photo/head-and-shoulders-portrait-of-smiling-young-man-standing-outdoors-in-garden.jpg?s=612x612&w=0&k=20&c=a1GXXAsyaJwJ_VJOPP-fWmPhDQ3WgrjSj23lbkIL6pc=",
   },
   {
     id: 2,
     name: "JohnPaul",
     subscribers: "900K subscribers",
     text: "From our first meeting to the next,her company is always enjoyable and down-to-earth. She brings an amazing energy that is truly my type. A forever sweet connection",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
+    image: "https://media.istockphoto.com/id/1289461467/photo/portrait-of-a-handsome-black-man.jpg?s=612x612&w=0&k=20&c=JUbxaaDMp6oSk-dIXrFsOE5wDc4HmZgElNuu_sQ8Nz0=",
   },
   {
     id: 3,
     name: "Peter hills",
     subscribers: "1.2M subscribers",
     text: "An incredible person with a homely and vibrant energy, our time together is always fantastic and unforgettable. Truly my kind of vibe",
-    image: "https://randomuser.me/api/portraits/women/56.jpg",
+    image: "https://www.istockphoto.com/photo/close-up-portrait-of-a-happy-african-doctor-in-black-medical-uniform-on-a-gray-gm1278812725-377627922",
   },
   {
     id: 4,
     name: "Anthony Eli",
     subscribers: "300K subscribers",
-    text: "Tracy offers exactly what you crave, she is worth every dime and more, providing s truly premium amd satisfying experience. i highly recommend her and look forward to our next meeting.",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    text: "Tracy offers exactly what you crave, she is worth every dime and more, providing s truly premium and satisfying experience. i highly recommend her and look forward to our next meeting.",
+    image: "https://www.istockphoto.com/photo/close-up-portrait-of-a-happy-african-doctor-in-black-medical-uniform-on-a-gray-gm1278812725-377627922",
   },
 ];
 const socialLinks = [
