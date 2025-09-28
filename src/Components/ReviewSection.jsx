@@ -31,7 +31,7 @@ const reviews = [
     id: 4,
     name: "Anthony Eli",
     subscribers: "300K subscribers",
-    text: "Tracy offers exactly what you crave, she is worth every dime and more, providing s truly premium amd satisfying experience. i highly recommend her and look forward to our next meeting.",
+    text: "Tracy offers exactly what you crave, she is worth every dime and more, providing true premium and satisfying experience. i highly recommend her and look forward to our next meeting.",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
   },
 ];

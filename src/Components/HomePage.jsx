@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import ContactSection from './ContactSection';
 import MotionCardsDemo from './MotionCardDemo';
 import Faqsect from './FaqSect';
+import Gallery from './Gallery';
 
  const faqs = [
     {
@@ -27,9 +28,7 @@ import Faqsect from './FaqSect';
       answer:
         "My rates are a reflection of my time, attention ad the premium,personalized experience i provide. I offer both fixed-rate packages and hourly options.",
     },
-  ];
-
-
+ ];
 const HomePage = () => {
      useEffect(() => {
     AOS.init({
@@ -94,15 +93,8 @@ const HomePage = () => {
 </section>
 
 
-      {/* Gallery */}
-      <section id="gallery" className="scroll-mt-40 py-20 px-6 bg-black">
-        <h2 className="text-4xl font-bold text-center mb-10">Gallery</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
-          <img src="/photo_2025-09-19_02-17-46.jpg" alt="gallery" className="rounded-lg" />
-          <img src="/photo_2025-09-19_02-18-09.jpg" alt="gallery" className="rounded-lg" />
-          <img src="/1755594343016.jpg" alt="gallery" className="rounded-lg" />
-        </div>
-      </section>
+        {/* Gallery */}
+        <Gallery />
 
       {/* Services */}
         <section id="services" className=" scroll-mt-40 py-20 px-6 bg-neutral-900">
